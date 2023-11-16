@@ -8,8 +8,6 @@ def translator_view(request):
     if request.method == 'POST':
         source_language = request.POST.get('s_lang')
         target_language = request.POST.get('t_lang')
-        print(source_language)
-        print(target_language)
         original_text = request.POST['my_textarea']
         output = translate.translate(original_text, source_language,
                                      target_language)
