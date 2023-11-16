@@ -7,11 +7,3 @@ def translate(text, source_language, target_language):
                                        src=source_language,
                                        dest=target_language)
     return translation.text
-
-
-# LANG = 'fr'
-
-# def translate(text):
-#     translator = Translator()
-#     translation = translator.translate(text=text, dest=LANG)
-#     return translation.text
