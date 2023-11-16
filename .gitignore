@@ -176,5 +176,6 @@ cython_debug/
 poetry.lock
 pyproject.toml
 replit.nix
+.replit
 
 # End of https://www.toptal.com/developers/gitignore/api/django
